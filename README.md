@@ -34,6 +34,14 @@ $ docker-composer up
 ```
 
 
+
+## AWS
+
+```bash
+52.67.81.239:808
+```
+
+
 ## Autor
 
 * **Paulo Vaz** - [LinkedIn](https://www.linkedin.com/in/PauloVaz-dev/)
