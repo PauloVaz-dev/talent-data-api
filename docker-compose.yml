@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  api:
+    build: .
+    image: api
+    container_name: api
+    restart: unless-stopped
+    working_dir: /usr/app/
+    ports:
+      - 8080:8080
+    networks:
+      - talent
+
+networks:
+  talent:
+    driver: bridge
